@@ -1,0 +1,38 @@
+.widget {
+  width: 60%;
+  margin: 0 auto;
+  font-family: 'Open Sans';
+}
+
+.clock {
+  font-family: 'Open Sans';
+  background: orange;
+  color: white;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+.clock p {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather {
+  font-family: 'Open Sans';
+  background: pink;
+  color: black;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+.weather div {
+  margin: 10px;
+}
